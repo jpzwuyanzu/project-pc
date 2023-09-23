@@ -1,6 +1,4 @@
 import { defineStore } from 'pinia'
-import { ref } from 'vue'
-
 const useCounterStore = defineStore('counter', {
   persist: true,
   state: () => {
@@ -9,8 +7,8 @@ const useCounterStore = defineStore('counter', {
     }
   },
   getters: {
-    double() {
-      return this.count * 2
+    double():Number {
+      return (this.count) * 2
     },
   },
   actions: {
