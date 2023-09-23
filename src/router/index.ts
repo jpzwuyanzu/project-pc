@@ -15,9 +15,9 @@ const MRoutes = [
               
             },
             {
-                name: 'bw',
-                path: 'bw',
-                component: () => import('@/views/Product/bw.vue'),
+                name: 'web',
+                path: 'web',
+                component: () => import('@/views/Product/web.vue'),
             },
             {
                 name: 'cdn',
@@ -25,14 +25,14 @@ const MRoutes = [
                 component: () => import('@/views/Product/cdn.vue'),
             },
             {
-                name: 'im',
-                path: 'im',
-                component: () => import('@/views/Product/im.vue'),
+                name: 'color',
+                path: 'color',
+                component: () => import('@/views/Product/color.vue'),
             },
             {
-                name: 'kf',
-                path: 'kf',
-                component: () => import('@/views/Product/kf.vue'),
+                name: 'contact',
+                path: 'contact',
+                component: () => import('@/views/Product/contact.vue'),
             },
             {
                 name: 'live',
@@ -45,14 +45,19 @@ const MRoutes = [
                 component: () => import('@/views/Product/monitor.vue'),
             },
             {
-                name: 'sz',
-                path: 'sz',
-                component: () => import('@/views/Product/sz.vue'),
+                name: 'metamask',
+                path: 'metamask',
+                component: () => import('@/views/Product/metamask.vue'),
             },
             {
-                name: 'wallet',
-                path: 'wallet',
-                component: () => import('@/views/Product/wallet.vue'),
+                name: 'sport',
+                path: 'sport',
+                component: () => import('@/views/Product/sport.vue'),
+            },
+            {
+                name: 'yime',
+                path: 'yime',
+                component: () => import('@/views/Product/yime.vue'),
             },
             {
                 name: 'cooperate',
@@ -73,6 +78,11 @@ const MRoutes = [
                 name: 'about',
                 path: 'about',
                 component: () => import('@/views/About/index.vue'),
+            },
+            {
+                name: 'demo',
+                path: 'demo',
+                component: () => import('@/views/Demo/index.vue'),
             },
         ]
     },
