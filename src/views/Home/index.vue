@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import { useMouse } from '@vueuse/core'
 import useCounterStore from '@/store/modules/count';
 import { storeToRefs } from 'pinia'
+const mouse = useMouse()
 const counterStore = useCounterStore();
 const { count }  =storeToRefs(counterStore)
 
@@ -8,12 +10,13 @@ const add = () => {
   counterStore.increment()
 }
 
-
 </script>
 
 <template>
   <h1>{{ count }}</h1>
   <button @click="add">add</button>
+  <p>测试国际化:{{$t('home.title')}}</p>
+  <p>VueUse 库导入,这里只是随便使用一个示例: X:{{ mouse.x }} Y:{{ mouse.y }}</p>
 </template>
 
 <style scoped>
