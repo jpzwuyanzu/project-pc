@@ -47,7 +47,7 @@
             <img
               v-for="(item, index) in cooperateList.list[activeTab]['con']"
               :src="`/src/assets/brand/${item}`"
-              :key="index + '_' + item.name"
+              :key="index + '_' + item"
               alt=""
               class="img-con"
             />
@@ -63,8 +63,9 @@
 
 <script setup lang="ts">
 import { reactive, ref } from "vue";
+import type { ITabs } from "@/indeface/index";
 const activeTab = ref(0);
-const cooperateList = reactive<any>({
+const cooperateList = reactive<{ list: ITabs[] }>({
   list: [
     {
       ico: "icon-1.png",
