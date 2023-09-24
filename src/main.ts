@@ -7,6 +7,7 @@ import pinia from '@/store/index';
 import '@/styles/index.scss';
 import 'ant-design-vue/dist/reset.css';
 import 'animate.css';
+import 'amfe-flexible/index.js';
 
 pinia.use(piniaPluginPersistedstate);
 
