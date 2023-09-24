@@ -1,7 +1,6 @@
 <template>
   <div class="page_contaier">
     <HeaderCom />
-    <Banner/>
     <RouterView />
     <FooterCom />
   </div>
@@ -9,12 +8,12 @@
 <script setup lang="ts">
 import HeaderCom from "@/components/Header.vue";
 import FooterCom from "@/components/Footer.vue";
-import Banner from "@/components/Banner.vue"
 </script>
 
 <style lang="scss" scoped>
 .page_contaier {
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
   height: 100%;
 }
 </style>
