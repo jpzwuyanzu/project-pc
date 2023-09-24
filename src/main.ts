@@ -5,6 +5,7 @@ import App from './App.vue';
 import router from '@/router/index';
 import pinia from '@/store/index';
 import '@/styles/index.scss';
+import 'ant-design-vue/dist/reset.css';
 
 pinia.use(piniaPluginPersistedstate);
 
