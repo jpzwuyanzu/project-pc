@@ -150,7 +150,7 @@ import { useRoute } from 'vue-router';
 import type { RouteRecordName } from 'vue-router';
 import { useWindowScroll } from '@vueuse/core';
 
-import { Dropdown, Popover } from 'ant-design-vue';
+import { Dropdown } from 'ant-design-vue';
 import { DownOutlined } from '@ant-design/icons-vue';
 
 const { y } = useWindowScroll();
