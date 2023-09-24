@@ -1,4 +1,5 @@
 {
+  "lang": "English",
   "header": {
     "navigator": {
       "home": "Home",
@@ -7,48 +8,40 @@
       "hatchCenter": "HatchCenter",
       "brand": "Brand",
       "aboutUs": "AboutUs",
-      "productList": [
-        {
-          "icon": "",
+      "productList": {
+        "web": {
           "title": "ACB GROUP",
           "desc": "Provide rich and colorful templates"
         },
-        {
-          "icon": "",
+        "color": {
           "title": "Color Station",
           "desc": "One-stop with AV/manga/color broadcast/etc"
         },
-        {
-          "icon": "",
+        "sport": {
           "title": "Sports Live",
           "desc": "Professional live broadcast service platform for sports events"
         },
-        {
-          "icon": "",
+        "monitor": {
           "title": "Business Monitoring",
           "desc": "Monitoring the real-time operation of the website group"
         },
-        {
-          "icon": "",
+        "cdn": {
           "title": "CDN",
           "desc": "Safe, stable and fast browsing experience"
         },
-        {
-          "icon": "",
+        "contact": {
           "title": "Contact Customer Service",
           "desc": "New Generation Customer Service System"
         },
-        {
-          "icon": "",
+        "yime": {
           "title": "Instant Messaging",
           "desc": "Speak freely and freely"
         },
-        {
-          "icon": "",
+        "metamask": {
           "title": "Metamask Wallet",
           "desc": "Encrypted wallet for blockchain applications"
         }
-      ]
+      }
     }
   }
 }

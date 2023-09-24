@@ -1,4 +1,5 @@
 {
+  "lang": "中文简体",
   "header": {
     "navigator": {
       "home": "首页",
@@ -7,48 +8,40 @@
       "hatchCenter": "孵化中心",
       "brand": "品牌战略",
       "aboutUs": "关于我们",
-      "productList": [
-        {
-          "icon": "",
+      "productList": {
+        "web": {
           "title": "爱世纪博包网",
           "desc": "提供丰富多彩模版"
         },
-        {
-          "icon": "",
+        "color": {
           "title": "综合色站",
           "desc": "一站式拥有AV/漫画/色播/等"
         },
-        {
-          "icon": "",
+        "sport": {
           "title": "体育直播",
           "desc": "专业的体育赛事直播服务平台"
         },
-        {
-          "icon": "",
+        "monitor": {
           "title": "业务监控",
           "desc": "监控网站群的实时运行情况"
         },
-        {
-          "icon": "",
+        "cdn": {
           "title": "CDN",
           "desc": "安全、稳定、快速的浏览体验"
         },
-        {
-          "icon": "",
+        "contact": {
           "title": "爱洽客服",
           "desc": "新一代客服系统"
         },
-        {
-          "icon": "",
+        "yime": {
           "title": "即时通讯",
           "desc": "自在安心地畅所欲言"
         },
-        {
-          "icon": "",
+        "metamask": {
           "title": "metamask钱包",
           "desc": "区块链应用程序的加密钱包"
         }
-      ]
+      }
     }
   }
 }
