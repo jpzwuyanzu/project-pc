@@ -1,0 +1,54 @@
+{
+  "header": {
+    "navigator": {
+      "home": "首页",
+      "product": "产品",
+      "cooperation": "合作共赢",
+      "hatchCenter": "孵化中心",
+      "brand": "品牌战略",
+      "aboutUs": "关于我们",
+      "productList": [
+        {
+          "icon": "",
+          "title": "爱世纪博包网",
+          "desc": "提供丰富多彩模版"
+        },
+        {
+          "icon": "",
+          "title": "综合色站",
+          "desc": "一站式拥有AV/漫画/色播/等"
+        },
+        {
+          "icon": "",
+          "title": "体育直播",
+          "desc": "专业的体育赛事直播服务平台"
+        },
+        {
+          "icon": "",
+          "title": "业务监控",
+          "desc": "监控网站群的实时运行情况"
+        },
+        {
+          "icon": "",
+          "title": "CDN",
+          "desc": "安全、稳定、快速的浏览体验"
+        },
+        {
+          "icon": "",
+          "title": "爱洽客服",
+          "desc": "新一代客服系统"
+        },
+        {
+          "icon": "",
+          "title": "即时通讯",
+          "desc": "自在安心地畅所欲言"
+        },
+        {
+          "icon": "",
+          "title": "metamask钱包",
+          "desc": "区块链应用程序的加密钱包"
+        }
+      ]
+    }
+  }
+}
