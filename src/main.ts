@@ -5,9 +5,7 @@ import App from './App.vue';
 import router from '@/router/index';
 import pinia from '@/store/index';
 import '@/styles/index.scss';
-import Antd from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css';
 
 pinia.use(piniaPluginPersistedstate);
 
-createApp(App).use(Antd).use(i18n).use(router).use(pinia).mount('#app');
+createApp(App).use(i18n).use(router).use(pinia).mount('#app');
