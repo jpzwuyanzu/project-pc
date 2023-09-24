@@ -6,7 +6,7 @@
         <div class="list">
           <div class="item">
             <img class="logo" src="@/assets/common/footer/skype.png" alt="" />
-            XXX
+            skype：XXX
           </div>
           <div class="item">
             <img
@@ -14,7 +14,7 @@
               src="@/assets/common/footer/telegram.png"
               alt=""
             />
-            XXX
+            telegram：XXX
           </div>
           <div class="item">
             <img
@@ -22,7 +22,7 @@
               src="@/assets/common/footer/whatsApp.png"
               alt=""
             />
-            XXX
+            whatsApp：XXX
           </div>
         </div>
       </div>
