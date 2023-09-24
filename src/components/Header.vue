@@ -43,7 +43,7 @@
       >
       <div class="placeholder"></div>
       <div class="lang">
-        <Dropdown placement="bottomRight" overlay-class-name="menu">
+        <a-dropdown placement="bottomRight" overlay-class-name="menu">
           <div class="title">
             <img
               v-if="locale === 'zh'"
@@ -98,7 +98,7 @@
               </a-menu-item>
             </a-menu>
           </template>
-        </Dropdown>
+        </a-dropdown>
       </div>
     </div>
     <div v-if="visibleProduct" class="product-wrap">
@@ -150,7 +150,6 @@ import { useRoute } from 'vue-router';
 import type { RouteRecordName } from 'vue-router';
 import { useWindowScroll } from '@vueuse/core';
 
-import { Dropdown } from 'ant-design-vue';
 import { DownOutlined } from '@ant-design/icons-vue';
 
 const { y } = useWindowScroll();
