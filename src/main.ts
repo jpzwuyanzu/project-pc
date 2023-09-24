@@ -6,6 +6,7 @@ import router from '@/router/index';
 import pinia from '@/store/index';
 import '@/styles/index.scss';
 import 'ant-design-vue/dist/reset.css';
+import 'animate.css';
 
 pinia.use(piniaPluginPersistedstate);
 

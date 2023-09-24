@@ -16,7 +16,7 @@ const add = () => {
 <template>
   <h1>{{ count }}</h1>
   <button @click="add">add</button>
-  <p>测试国际化:{{$t('home.title')}}</p>
+  <p>测试国际化:{{$t('header.navigator.home')}}</p>
   <p>VueUse 库导入,这里只是随便使用一个示例: X:{{ mouse.x }} Y:{{ mouse.y }}</p>
   <a-button type="primary">Primary Button</a-button>
 </template>
