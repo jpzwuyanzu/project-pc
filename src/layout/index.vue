@@ -12,8 +12,7 @@ import FooterCom from "@/components/Footer.vue";
 
 <style lang="scss" scoped>
 .page_contaier {
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   height: 100%;
 }
 </style>
