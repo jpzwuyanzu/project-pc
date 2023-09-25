@@ -126,8 +126,9 @@
             @keypress.enter="navigate"
           >
             <a-image
-              :width="25"
-              :height="25"
+              class="icon"
+              :width="40"
+              :height="40"
               :src="item.icon"
               fallback="data:image/png;base64,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"
             />
@@ -232,12 +233,18 @@ const productList = [
   cursor: pointer;
   font-weight: 400;
   color: #1d2129;
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
 }
 $color: #1064fb;
+
+@mixin langLogo() {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
 .header {
-  height: 42px;
+  height: 68px;
   width: 100%;
   position: fixed;
   z-index: 3;
@@ -252,7 +259,7 @@ $color: #1064fb;
   justify-content: center;
   .container {
     width: $minWidth;
-    height: 42px;
+    height: 68px;
     margin: auto 0;
 
     display: flex;
@@ -261,12 +268,12 @@ $color: #1064fb;
     flex-wrap: nowrap;
 
     .logo {
-      width: 103px;
-      height: 31px;
-      margin-right: 29px;
+      width: 160px;
+      height: 48px;
+      margin-right: 45px;
     }
     .link {
-      margin-right: 26px;
+      margin-right: 40px;
       @include font();
       position: relative;
       height: 100%;
@@ -279,12 +286,12 @@ $color: #1064fb;
           display: block;
           position: absolute;
           width: 100%;
-          height: 2px;
+          height: 3px;
           background: #1d2129;
           left: 50%;
-          bottom: 5px;
+          bottom: 12px;
           transform: translateX(-50%);
-          border-radius: 1px;
+          border-radius: 2px;
         }
       }
       &:hover {
@@ -296,7 +303,6 @@ $color: #1064fb;
     }
     .lang {
       @include font();
-      margin-right: 10px;
       position: relative;
       .title {
         &:hover {
@@ -304,16 +310,14 @@ $color: #1064fb;
         }
       }
       .logo {
-        width: 9px;
-        height: 9px;
-        margin-right: 2px;
+        @include langLogo();
       }
     }
   }
   &.whiteBG,
   &:hover {
     background: #fff;
-    box-shadow: 0 3px 11px 0 rgba(16, 40, 90, 0.1);
+    box-shadow: 0 6px 22px 0 rgba(16, 40, 90, 0.1);
 
     .link {
       &.active {
@@ -334,22 +338,20 @@ $color: #1064fb;
   }
 }
 .lang-logo {
-  width: 9px;
-  height: 9px;
-  margin-right: 2px;
+  @include langLogo();
 }
 .product-wrap {
   width: 100%;
   position: fixed;
   position: absolute;
-  top: 42px;
+  top: 68px;
   left: 50%;
   transform: translate(-50%);
   z-index: -1;
   display: flex;
   .product-list {
     width: 1200px;
-    height: 200px;
+    height: 318px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -358,12 +360,12 @@ $color: #1064fb;
     margin: 0 auto;
 
     background: #fff;
-    box-shadow: 0 1px 6px 0 rgba(30, 108, 249, 0.14);
-    border-radius: 0 0 0.01042rem 0.01042rem;
+    box-shadow: 0 1px 10px 0 rgba(30, 108, 249, 0.14);
+    border-radius: 0 0 2px 2px;
     .item {
       width: 25%;
-      min-height: 56px;
-      padding: 12px 18px 12px 12px;
+      min-height: 89px;
+      padding: 0 30px 0 20px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -373,7 +375,8 @@ $color: #1064fb;
         background: #eff7ff;
       }
       .content {
-        font-size: 12px;
+        margin-left: 8px;
+        font-size: 16px;
         h4 {
           font-weight: 500;
           color: #1d2129;
@@ -381,6 +384,7 @@ $color: #1064fb;
         p {
           color: #656f81;
           font-weight: 400;
+          margin-top: 5px;
         }
       }
     }
