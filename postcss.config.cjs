@@ -12,7 +12,7 @@ module.exports = {
       grid: true,
     },
     'postcss-pxtorem': {
-      rootValue: 140,
+      rootValue: 192,
       propList: ['*', '!border'],
       selectorBlackList: ['.ant-'],
     },
