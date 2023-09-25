@@ -109,13 +109,13 @@ const productList = [
   }
 
   .top {
-    height: 60px;
+    height: 100px;
     background-size: 100% 100%;
     background: url(https://acb.bet/_nuxt/img/top-bg.4ac46bf.png);
     .container {
       .contact {
-        width: 133px;
-        height: 85px;
+        width: 214px;
+        height: 136px;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -123,14 +123,14 @@ const productList = [
       .list {
         display: flex;
         align-items: center;
-        gap: 43px;
+        gap: 69px;
         .item {
           color: #fff;
-          font-size: 12px;
+          font-size: 16px;
           .logo {
-            width: 18px;
-            height: 18px;
-            margin-right: 5px;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
           }
         }
       }
@@ -138,12 +138,12 @@ const productList = [
   }
 
   .middle {
-    height: 105px;
+    height: 168px;
 
-    gap: 180px;
     .logo {
-      width: 123px;
-      height: 37px;
+      width: 198px;
+      height: 60px;
+      margin-right: 288px;
     }
     .list {
       flex: 1;
@@ -151,23 +151,23 @@ const productList = [
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      justify-content: flex-end;
+      justify-content: flex-start;
       flex-wrap: wrap;
-      font-size: 12px;
+      font-size: 16px;
       color: #656f81;
-      gap: 9px 56px;
+      gap: 16px 90px;
     }
   }
   .bottom {
     border-top: 1px solid #2a3750;
     .container {
       width: 100%;
-      height: 37px;
+      height: 60px;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      font-size: 12px;
+      font-size: 16px;
       font-weight: 400;
       color: #656f81;
     }
