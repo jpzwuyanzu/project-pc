@@ -5,7 +5,7 @@
         <h3>ACB愛世博品牌戰略目標</h3>
       </div>
     </div>
-    <div :class="{ wrap: true, fix: y >= 470 }">
+    <div :class="{ wrap: true, fix: y >= 400 }">
       <div class="con-main-wrap">
         <div class="list-wrap">
           <div class="list-item active">
@@ -143,7 +143,7 @@ watch(y, (newVal, oldVal) => {
   }
   .fix {
     position: fixed;
-    top: 69px;
+    top: 68px;
     left: 0;
     right: 0;
     height: 60;
